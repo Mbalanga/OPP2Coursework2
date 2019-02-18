@@ -9,7 +9,6 @@ public class MyListe {
 		Scanner scr=new Scanner(System.in);
 		double Average;
 		double Sum;
-		double GPA;
 		double Networking,WebDesign,OOP2,ComputerApp,CommunicatonSkills,ENT;
 		
 		System.out.println("ENTER SUTDENT'S NAMES"+"");
@@ -80,12 +79,11 @@ public class MyListe {
 						
 				
 			if(Average<=60 && Average>65) {		
-		System.out.println("The GPA IS="+3.0);
+							
+				System.out.println("The GPA IS="+3.0);
 							
 		}else if(Average<=70 && Average>75) {		 
-		
-		}else if(Average>100) {		 
-			 System.out.println("The GPA="+"IVALID NUMBER");
+			
 								 
 			System.out.println("The GPA IS="+3.80);
 								
